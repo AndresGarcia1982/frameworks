@@ -86,7 +86,7 @@ function candyColumns(index) {
 	return candyColumn[index];
 }
 
-//punto 3. Valida si hay dulces que se eliminarán en una columna
+//Tercer punto. Validar si hay dulces que se eliminarán en una columna
 function columnValidation() {
 	for (var j = 0; j < 7; j++) {
 		var counter = 0;
@@ -256,7 +256,7 @@ function setValidations() {
 }
 
 
-//punto 7. interacción del usuario con el elemento caramelo es drag and drop
+//Séptimo punto. Interacción del usuario con el elemento caramelo acción drag and drop
 //efecto de movimiento entre los caramelos
 function addCandyEvents() {
 	$('img').draggable({
@@ -363,7 +363,7 @@ function deletesCandy() {
 	})
 }
 
-//punto 4 y 6. temporizador y boton reiniciar
+//Cuarto y Sexto punto. Temporizador y boton de reinicio
 //cambia el aspecto de la página
 //final del juego
 function endGame() {
